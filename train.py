@@ -23,4 +23,4 @@ metric=[tf.keras.metrics.Recall(),tf.keras.metrics.CategoricalAccuracy()]
 model.compile(opt,loss,metric)
 model.fit(dataset,batch_size=64,epochs=100,validation_data=val)
 
-model.save("saved/model2")
+model.save("saved/model")
